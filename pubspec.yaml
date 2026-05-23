@@ -1,0 +1,30 @@
+# pubspec.yaml
+
+name: flutter_application_1
+description: "Stoxier Cost Control ve Bar Sorumlusu Uygulaması."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.9.2 <4.0.0' 
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # --- Stoxier Uygulaması İçin Supabase ve Diğer Kütüphaneler ---
+  supabase_flutter: ^2.5.0 # Sunucu Tabanlı Veritabanı (API)
+  mobile_scanner: ^4.0.1 # Barkod/QR Kod Tarama
+  shared_preferences: ^2.2.2 # Beni Hatırla özelliği için
+  fl_chart: ^0.68.0 # GRAFİK ekranı için eklendi
+  
+  cupertino_icons: ^1.0.8
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
